@@ -1,0 +1,133 @@
+/* Rushclin Takam Copyright 2022 */
+
+:root {
+
+    /* COLORS */
+
+    --primary-color: #1C1B29;
+
+
+    /* TYPOGRAPHY*/
+}
+
+/* RESET */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.profile-wrapper {
+    background-image: url('./../images/back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: #ffff;
+    position: relative;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.picture-wrapper {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+.profile-wrapper .picture img {
+    border-radius: 100%;
+}
+
+.name-bio-wrapper .name {
+    font-size: 40px;
+    font-family: Agustina;
+}
+
+.name-bio-wrapper .bio {
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.body-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.body-section ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.body-section ul li {
+    margin: 0 10px;
+}
+
+.body-section ul li:nth-child(1) a:is(:hover, :focus) {
+    color: #4267B2;
+}
+
+.body-section ul li:nth-child(2) a:is(:hover, :focus) {
+    color: #405DE6;
+}
+
+.body-section ul li:nth-child(3) a:is(:hover, :focus) {
+    color: #1DA1F2;
+}
+
+.body-section ul li:nth-child(4) a:is(:hover, :focus) {
+    color: #128C7E;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.body-section.text-box .title {
+    font-weight: 800;
+    color: #ffff;
+    padding: 10px 0;
+    font-family: Poppins;
+}
+
+.body-section.text-box .description {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffff;
+    padding-inline: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 200;
+}
