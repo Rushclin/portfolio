@@ -67,7 +67,7 @@ a {
 
 .name-bio-wrapper .bio {
     font-size: 15px;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 
 .body-section {
@@ -110,11 +110,11 @@ a {
     font-weight: 800;
     color: #ffff;
     padding: 10px 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 
 .body-section.text-box .description {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-weight: 300;
     color: #ffff;
@@ -128,6 +128,6 @@ a {
     display: flex;
     color: #fff;
     font-size: 10px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-weight: 200;
 }
