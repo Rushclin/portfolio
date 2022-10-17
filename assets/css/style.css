@@ -10,6 +10,16 @@
     /* TYPOGRAPHY*/
 }
 
+@font-face {
+    font-family: 'Creation';
+    src: url('./../fonts/Creattion\ Demo.otf');
+}
+
+@font-face {
+    font-family: 'Agustina';
+    src: url('./../fonts/Agustina\ Demo.ttf');
+}
+
 /* RESET */
 
 *,
@@ -63,6 +73,7 @@ a {
 .name-bio-wrapper .name {
     font-size: 30px;
     font-family: Agustina;
+    margin-bottom: 10px;
 }
 
 .name-bio-wrapper .bio {
