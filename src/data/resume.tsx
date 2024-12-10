@@ -6,12 +6,14 @@ export const DATA = {
   initials: "Rush.",
   url: "https://dillion.io",
   location: "Dschang, Cameroun",
-  locationLink: "https://www.google.com/maps/place/Dschang+Airport+Rd.,+Dschang/@5.4473405,10.0602621,17z/data=!3m1!4b1!4m6!3m5!1s0x105fb068c3e3f759:0xf8dcadf31ff39b21!8m2!3d5.4473352!4d10.0628424!16s%2Fg%2F11h54zm6xl?authuser=0&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
+  locationLink:
+    "https://www.google.com/maps/place/Dschang+Airport+Rd.,+Dschang/@5.4473405,10.0602621,17z/data=!3m1!4b1!4m6!3m5!1s0x105fb068c3e3f759:0xf8dcadf31ff39b21!8m2!3d5.4473352!4d10.0628424!16s%2Fg%2F11h54zm6xl?authuser=0&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
   description:
     "MSc en informatique, expert en FL et traitement des données, appliqués à l'agriculture et au développement de solutions innovantes.",
   summary:
     "MSc informatique spécialisé en IA, traitement des données et développement d’applications, j’ai conçu des solutions performantes comme des systèmes de suivi de véhicules, des outils d’analyse de données et des modèles prédictifs. Fort de projets en apprentissage fédéré pour l’agriculture, j’ai déployé des applications utilisées à grande échelle. Passionné par l’innovation, je travaille sur des technologies avancées pour résoudre des défis complexes et ambitionne de contribuer à l’agriculture intelligente et durable..",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQHNgzmAE4ejAw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729712078071?e=1739404800&v=beta&t=z43StqTswr6waAukyvSR4IVqw2u3KHvjy34jagbb-Vs",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D4E03AQHNgzmAE4ejAw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729712078071?e=1739404800&v=beta&t=z43StqTswr6waAukyvSR4IVqw2u3KHvjy34jagbb-Vs",
   skills: [
     // Frontend Development
     "React",
@@ -107,7 +109,7 @@ export const DATA = {
     // "ClickHouse",
     "OpenAPI/Swagger",
     "D3.js",
-    "Fabric.js"
+    "Fabric.js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -155,10 +157,12 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "R&D Enginneer",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQFW5BvwzV6PXw/company-logo_200_200/company-logo_200_200/0/1698933725745/novalitix_logo?e=1741824000&v=beta&t=R7C_xpoyGjQ8z4lnzH093MBuHAj3UzcCeyUoRjYYVAM",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQFW5BvwzV6PXw/company-logo_200_200/company-logo_200_200/0/1698933725745/novalitix_logo?e=1741824000&v=beta&t=R7C_xpoyGjQ8z4lnzH093MBuHAj3UzcCeyUoRjYYVAM",
       start: "Sept 2024",
       end: "Présent",
-      description: "Chez Novalitix, nous avons conçu plusieurs solutions innovantes basées sur l'Intelligence Artificielle, en mettant particulièrement l'accent sur les RAG (Retrieval-Augmented Generation), une approche actuellement en plein essor. Ces technologies nous ont permis de développer des outils avancés, notamment une solution dédiée à l'entrepreneuriat en Afrique, visant à répondre aux besoins spécifiques de ce marché en pleine croissance. Grâce à l'intégration de l'IA et des RAG, nous avons pu offrir une plateforme capable d'exploiter des données contextualisées pour fournir des réponses précises, favoriser la prise de décision et soutenir les entrepreneurs dans leurs activités. Cette initiative reflète notre engagement à promouvoir l'innovation et le développement durable sur le continent."
+      description:
+        "Chez Novalitix, nous avons conçu plusieurs solutions innovantes basées sur l'Intelligence Artificielle, en mettant particulièrement l'accent sur les RAG (Retrieval-Augmented Generation), une approche actuellement en plein essor. Ces technologies nous ont permis de développer des outils avancés, notamment une solution dédiée à l'entrepreneuriat en Afrique, visant à répondre aux besoins spécifiques de ce marché en pleine croissance. Grâce à l'intégration de l'IA et des RAG, nous avons pu offrir une plateforme capable d'exploiter des données contextualisées pour fournir des réponses précises, favoriser la prise de décision et soutenir les entrepreneurs dans leurs activités. Cette initiative reflète notre engagement à promouvoir l'innovation et le développement durable sur le continent.",
     },
     {
       company: "Wizestack",
@@ -166,10 +170,12 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Developpeur fullstack",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQGO8HWU_P1o4w/company-logo_200_200/company-logo_200_200/0/1728493018623/wizestack_logo?e=1741824000&v=beta&t=n4yzhZjL1HlR6Regx_z7_uFl2McLDo9pTeXn6GovER8",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQGO8HWU_P1o4w/company-logo_200_200/company-logo_200_200/0/1728493018623/wizestack_logo?e=1741824000&v=beta&t=n4yzhZjL1HlR6Regx_z7_uFl2McLDo9pTeXn6GovER8",
       start: "Feb 2023",
       end: "Oct 2024",
-      description: "Chez Wizestack, nous avons développé et déployé plusieurs solutions innovantes et évolutives, spécifiquement conçues pour répondre aux besoins des particuliers dans des domaines clés. Nos solutions, principalement dédiées au e-commerce et à la gestion des stocks, intègrent une large gamme de fonctionnalités essentielles telles que le suivi des inventaires en temps réel, la gestion des commandes, l’analyse des ventes et l’automatisation des processus.  En misant sur des architectures évolutives et robustes, nos outils permettent aux utilisateurs de gérer efficacement leurs opérations, tout en offrant une expérience utilisateur optimisée. Ces solutions reflètent notre expertise en conception de systèmes fiables et notre engagement à fournir des technologies adaptées aux exigences du marché, contribuant ainsi à l’amélioration de la productivité et à la croissance des activités de nos clients."
+      description:
+        "Chez Wizestack, nous avons développé et déployé plusieurs solutions innovantes et évolutives, spécifiquement conçues pour répondre aux besoins des particuliers dans des domaines clés. Nos solutions, principalement dédiées au e-commerce et à la gestion des stocks, intègrent une large gamme de fonctionnalités essentielles telles que le suivi des inventaires en temps réel, la gestion des commandes, l’analyse des ventes et l’automatisation des processus.  En misant sur des architectures évolutives et robustes, nos outils permettent aux utilisateurs de gérer efficacement leurs opérations, tout en offrant une expérience utilisateur optimisée. Ces solutions reflètent notre expertise en conception de systèmes fiables et notre engagement à fournir des technologies adaptées aux exigences du marché, contribuant ainsi à l’amélioration de la productivité et à la croissance des activités de nos clients.",
     },
     {
       company: "DSC Datasmart",
@@ -180,7 +186,8 @@ export const DATA = {
       logoUrl: "",
       start: "Jan 2023",
       end: "Présent",
-      description: "Nous avons développé une application IoT dédiée au suivi des plateformes solaires, permettant une gestion optimisée et en temps réel des installations énergétiques. En parallèle, nous avons conçu une solution avancée pour le suivi sismique d’un site industriel de production de semi-conducteurs, offrant des outils de monitoring précis pour garantir la sécurité et la continuité des opérations. De plus, nous avons élaboré une application spécifique pour les experts assureurs, facilitant le suivi et la gestion des sinistres grâce à des fonctionnalités adaptées aux besoins du secteur. Ces projets illustrent notre capacité à fournir des solutions technologiques diversifiées et adaptées à des contextes variés."
+      description:
+        "Nous avons développé une application IoT dédiée au suivi des plateformes solaires, permettant une gestion optimisée et en temps réel des installations énergétiques. En parallèle, nous avons conçu une solution avancée pour le suivi sismique d’un site industriel de production de semi-conducteurs, offrant des outils de monitoring précis pour garantir la sécurité et la continuité des opérations. De plus, nous avons élaboré une application spécifique pour les experts assureurs, facilitant le suivi et la gestion des sinistres grâce à des fonctionnalités adaptées aux besoins du secteur. Ces projets illustrent notre capacité à fournir des solutions technologiques diversifiées et adaptées à des contextes variés.",
     },
     {
       company: "Africa Systems",
@@ -188,10 +195,12 @@ export const DATA = {
       badges: [],
       location: "Dschang, Caméroun",
       title: "Développeur mobile React Native",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQEz6Qccj415GQ/company-logo_200_200/company-logo_200_200/0/1648829686982?e=1741824000&v=beta&t=EuUTNM-24dnIiwTujIWIiSocHukVJvfGkWvF0BKbg-8",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/C4D0BAQEz6Qccj415GQ/company-logo_200_200/company-logo_200_200/0/1648829686982?e=1741824000&v=beta&t=EuUTNM-24dnIiwTujIWIiSocHukVJvfGkWvF0BKbg-8",
       start: "Juin 2022",
       end: "Jan 2023",
-      description: "Nous avons développé une application mobile de tracking de véhicules déployée avec succès chez Eneo Cameroun, offrant des fonctionnalités de suivi en temps réel pour améliorer la gestion des flottes. Par ailleurs, nous avons conçu une application innovante communicant via Bluetooth avec des terminaux POS, permettant la saisie rapide et efficace des commandes dans divers contextes commerciaux. Enfin, nous avons réalisé une application de covoiturage, visant à faciliter la mise en relation des utilisateurs pour des déplacements partagés, contribuant ainsi à une mobilité plus durable et économique. Ces projets mettent en avant notre expertise en développement d’applications mobiles adaptées à des besoins spécifiques."
+      description:
+        "Nous avons développé une application mobile de tracking de véhicules déployée avec succès chez Eneo Cameroun, offrant des fonctionnalités de suivi en temps réel pour améliorer la gestion des flottes. Par ailleurs, nous avons conçu une application innovante communicant via Bluetooth avec des terminaux POS, permettant la saisie rapide et efficace des commandes dans divers contextes commerciaux. Enfin, nous avons réalisé une application de covoiturage, visant à faciliter la mise en relation des utilisateurs pour des déplacements partagés, contribuant ainsi à une mobilité plus durable et économique. Ces projets mettent en avant notre expertise en développement d’applications mobiles adaptées à des besoins spécifiques.",
     },
     {
       company: "Exsodia",
@@ -202,15 +211,17 @@ export const DATA = {
       logoUrl: "",
       start: "Jan 2022",
       end: "Jan 2023",
-      description: "Nous avons assuré le développement et la maintenance d’un site web dédié au suivi de la bourse du village Mbouda au Cameroun, offrant une plateforme intuitive pour informer et connecter les utilisateurs sur les activités boursières locales. En complément, nous avons développé le site web Exodia, conçu pour répondre à des besoins spécifiques avec une interface moderne et des fonctionnalités adaptées. Ces réalisations témoignent de notre savoir-faire en création de solutions web performantes et personnalisées."
-    }
+      description:
+        "Nous avons assuré le développement et la maintenance d’un site web dédié au suivi de la bourse du village Mbouda au Cameroun, offrant une plateforme intuitive pour informer et connecter les utilisateurs sur les activités boursières locales. En complément, nous avons développé le site web Exodia, conçu pour répondre à des besoins spécifiques avec une interface moderne et des fonctionnalités adaptées. Ces réalisations témoignent de notre savoir-faire en création de solutions web performantes et personnalisées.",
+    },
   ],
   education: [
     {
       school: "Université de Dschang",
       href: "https://www.univ-dschang.org/",
       degree: "Master of Science (MSC)",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQF9Y90ueA_GdA/company-logo_200_200/company-logo_200_200/0/1644907506927?e=1741824000&v=beta&t=xO8uWMV3Nn82rVvXEzoAiB7kn6ZzKZtJIMWhN7J0osc",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/C560BAQF9Y90ueA_GdA/company-logo_200_200/company-logo_200_200/0/1644907506927?e=1741824000&v=beta&t=xO8uWMV3Nn82rVvXEzoAiB7kn6ZzKZtJIMWhN7J0osc",
       start: "2022",
       end: "2024",
     },
@@ -218,7 +229,8 @@ export const DATA = {
       school: "Université de Dschang.",
       href: "https://www.univ-dschang.org/",
       degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQF9Y90ueA_GdA/company-logo_200_200/company-logo_200_200/0/1644907506927?e=1741824000&v=beta&t=xO8uWMV3Nn82rVvXEzoAiB7kn6ZzKZtJIMWhN7J0osc",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/C560BAQF9Y90ueA_GdA/company-logo_200_200/company-logo_200_200/0/1644907506927?e=1741824000&v=beta&t=xO8uWMV3Nn82rVvXEzoAiB7kn6ZzKZtJIMWhN7J0osc",
       start: "2019",
       end: "2022",
     },
@@ -226,10 +238,11 @@ export const DATA = {
       school: "Lycée Bilingue de Bafoussam Ndiengdam",
       href: "https://ecolesaucameroun.com/ecole.php?id=4068-lycee-bilingue-de-bafoussam-ndiengdam-arrondissement-de-bafoussam-i",
       degree: "Baccalaureat, option TI",
-      logoUrl: "https://www.pasch-net.de/resources/files/png87/f2686ac7-9a0c-4875-26741962f7517590-formatkey-png-w150.png",
+      logoUrl:
+        "https://www.pasch-net.de/resources/files/png87/f2686ac7-9a0c-4875-26741962f7517590-formatkey-png-w150.png",
       start: "2016",
       end: "2021",
-    }
+    },
   ],
   projects: [
     {
@@ -256,8 +269,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://",
+      video: "https://",
     },
   ],
   hackathons: [
@@ -292,6 +304,6 @@ export const DATA = {
         //   href: "https://github.com/Wallet6/wallet6-server",
         // },
       ],
-    }
+    },
   ],
 } as const;

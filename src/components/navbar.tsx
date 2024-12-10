@@ -1,12 +1,12 @@
-import { DATA } from '@/data/resume'
-import { cn } from '@/lib/utils'
-import Link from 'next/link'
-import React from 'react'
-import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
-import { Dock, DockIcon } from './magicui/docks'
-import { Separator } from './ui/separator'
-import { ModeToggle } from './mode-toggle'
-import { buttonVariants } from './ui/button'
+import { DATA } from "@/data/resume";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
+import React from "react";
+import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
+import { Dock, DockIcon } from "./magicui/docks";
+import { Separator } from "./ui/separator";
+import { ModeToggle } from "./mode-toggle";
+import { buttonVariants } from "./ui/button";
 
 const Navbar = () => {
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
+                    "size-12",
                   )}
                 >
                   <item.icon className="size-4" />
@@ -44,7 +44,7 @@ const Navbar = () => {
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
+                      "size-12",
                     )}
                   >
                     <social.icon className="size-4" />
@@ -69,7 +69,7 @@ const Navbar = () => {
         </DockIcon>
       </Dock>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

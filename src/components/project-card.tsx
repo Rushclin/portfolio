@@ -31,7 +31,6 @@ interface Props {
 export function ProjectCard({
   title,
   href,
-  description,
   dates,
   tags,
   link,

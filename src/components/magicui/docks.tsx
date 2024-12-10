@@ -16,7 +16,7 @@ const DEFAULT_MAGNIFICATION = 60;
 const DEFAULT_DISTANCE = 140;
 
 const dockVariants = cva(
-  "mx-auto w-max h-full p-2 flex items-end rounded-full border"
+  "mx-auto w-max h-full p-2 flex items-end rounded-full border",
 );
 
 const Dock = React.forwardRef<HTMLDivElement, DockProps>(
@@ -28,11 +28,12 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
       distance = DEFAULT_DISTANCE,
       ...props
     },
-    ref
+    ref,
   ) => {
     const mousex = useMotionValue(Infinity);
 
     const renderChildren = () => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       return React.Children.map(children, (child: any) => {
         if (React.isValidElement(child)) {
           return React.cloneElement(child, {
@@ -56,7 +57,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
         {renderChildren()}
       </motion.div>
     );
-  }
+  },
 );
 
 Dock.displayName = "Dock";
@@ -65,6 +66,7 @@ export interface DockIconProps {
   size?: number;
   magnification?: number;
   distance?: number;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   mousex?: any;
   className?: string;
   children?: React.ReactNode;
@@ -72,7 +74,6 @@ export interface DockIconProps {
 }
 
 const DockIcon = ({
-  size,
   magnification = DEFAULT_MAGNIFICATION,
   distance = DEFAULT_DISTANCE,
   mousex,
@@ -87,13 +88,13 @@ const DockIcon = ({
     return val - bounds.x - bounds.width / 2;
   });
 
-  let widthSync = useTransform(
+  const widthSync = useTransform(
     distanceCalc,
     [-distance, 0, distance],
-    [40, magnification, 40]
+    [40, magnification, 40],
   );
 
-  let width = useSpring(widthSync, {
+  const width = useSpring(widthSync, {
     mass: 0.1,
     stiffness: 150,
     damping: 12,
@@ -105,7 +106,7 @@ const DockIcon = ({
       style={{ width }}
       className={cn(
         "flex aspect-square cursor-pointer items-center justify-center rounded-full",
-        className
+        className,
       )}
       {...props}
     >

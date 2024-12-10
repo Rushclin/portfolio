@@ -162,9 +162,12 @@ export default function Page() {
                   J&apos;aime construire des choses
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Pendant mes études universitaires, j&apos;ai participé à plus de {" "}
-                  {DATA.hackathons.length} hackathons. Des gens de tout le pays se réunissaient et construisaient des choses incroyables en 2 à 3 jours. C&apos;était révélateur de voir les possibilités infinies
-                  offertes par un groupe d&apos;individus motivés et passionnés.
+                  Pendant mes études universitaires, j&apos;ai participé à plus
+                  de {DATA.hackathons.length} hackathons. Des gens de tout le
+                  pays se réunissaient et construisaient des choses incroyables
+                  en 2 à 3 jours. C&apos;était révélateur de voir les
+                  possibilités infinies offertes par un groupe d&apos;individus
+                  motivés et passionnés.
                 </p>
               </div>
             </div>
