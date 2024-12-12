@@ -1,7 +1,7 @@
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-// import { ProjectCard } from "@/components/project-card";
+import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -111,19 +111,21 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* <section id="projects">
+      <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Mes Projets
+                  Mes Projets Personnels
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Visitez mes derniers projets
+                  Visitez mes projets personnels
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  J'ai travaillé sur une grande variété de projets, des sites Web simples aux applications Web complexes. Voici quelques-uns de mes favoris.
+                  J&apos;ai travaillé sur une grande variété de projets, des
+                  sites Web simples aux applications Web complexes. Voici
+                  quelques-uns de mes favoris.
                 </p>
               </div>
             </div>
@@ -149,7 +151,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
