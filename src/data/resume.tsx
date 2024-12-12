@@ -9,9 +9,9 @@ export const DATA = {
   locationLink:
     "https://www.google.com/maps/place/Dschang+Airport+Rd.,+Dschang/@5.4473405,10.0602621,17z/data=!3m1!4b1!4m6!3m5!1s0x105fb068c3e3f759:0xf8dcadf31ff39b21!8m2!3d5.4473352!4d10.0628424!16s%2Fg%2F11h54zm6xl?authuser=0&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
   description:
-    "MSc en informatique, expert en FL et traitement des données, appliqués à l'agriculture et au développement de solutions innovantes.",
+    "Développeur web fullstack, Machine Learning Enthousiast (#FL, #ML, #Topologie Hybride, )",
   summary:
-    "MSc informatique spécialisé en IA, traitement des données et développement d’applications, j’ai conçu des solutions performantes comme des systèmes de suivi de véhicules, des outils d’analyse de données et des modèles prédictifs. Fort de projets en apprentissage fédéré pour l’agriculture, j’ai déployé des applications utilisées à grande échelle. Passionné par l’innovation, je travaille sur des technologies avancées pour résoudre des défis complexes et ambitionne de contribuer à l’agriculture intelligente et durable..",
+    "MSc informatique spécialité IA, traitement des données et développement d’applications, j’ai conçu des solutions performantes comme des systèmes de suivi de véhicules, des outils d’analyse de données et des modèles prédictifs. Fort de projets en apprentissage fédéré pour l’agriculture, je travaille sur des applications qui peuvent être utilisées à grande échelle. Passionné par l’innovation, je travaille sur des technologies avancées pour résoudre des défis complexes et ambitionne de contribuer à l’agriculture intelligente et durable..",
   avatarUrl:
     "https://media.licdn.com/dms/image/v2/D4E03AQHNgzmAE4ejAw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729712078071?e=1739404800&v=beta&t=z43StqTswr6waAukyvSR4IVqw2u3KHvjy34jagbb-Vs",
   skills: [
@@ -246,30 +246,133 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Decentralized Federated Learning",
-      href: "https://",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
+      title: "Exsodia website",
+      href: "https://exodia-template-cl72.vercel.app/",
+      dates: "Jan 2022 - Feb 2022",
+      active: false,
       description: "Une description",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+      technologies: ["Angular", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://",
+          href: "https://exodia-template-cl72.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/6PfdbpL/exodia.png",
+      video: "",
+    },
+    {
+      title: "Interior design",
+      href: "https://interior-design-murex.vercel.app/",
+      dates: "Jan 2022 - Feb 2022",
+      active: false,
+      description: "Une description",
+      technologies: ["HTML", "CSS", "SCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://interior-design-murex.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://interior-design-murex.vercel.app/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://i.ibb.co/5K9cbdb/Screenshot-12-12-2024-163228-interior-design-murex-vercel-app.jpg",
+      video: "",
+    },
+    {
+      title: "The creative crew",
+      href: "https://teams-lead.vercel.app/",
+      dates: "Jan 2023 - Feb 2023",
+      active: false,
+      description: "Une description",
+      technologies: ["HTML", "CSS", "SCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://teams-lead.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://i.ibb.co/3hMvJnD/Screenshot-12-12-2024-163614-teams-lead-vercel-app.jpg",
+      video: "",
+    },
+    {
+      title: "Dashboard",
+      href: "https://dashboard-f37r.vercel.app/",
+      dates: "Jan 2023 - Feb 2023",
+      active: false,
+      description: "Une description",
+      technologies: ["HTML", "JS", "CSS", "SCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://dashboard-f37r.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://i.ibb.co/dgDDrsv/Screenshot-12-12-2024-164255-dashboard-f37r-vercel-app.jpg",
+      video: "",
+    },
+    {
+      title: "Galery",
+      href: "https://galerie-html-css.vercel.app/",
+      dates: "Nov 2023 - Nov 2023",
+      active: false,
+      description: "Une description",
+      technologies: ["HTML", "JS", "CSS", "SCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://galerie-html-css.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://i.ibb.co/H47jKgK/Screenshot-12-12-2024-165554-galerie-html-css-vercel-app.jpg",
+      video: "",
+    },
+    {
+      title: "Eddie Website",
+      href: "https://edie-flame.vercel.app/",
+      dates: "Dec 2023 - Dec 2023",
+      active: false,
+      description: "Une description",
+      technologies: ["HTML", "JS", "CSS", "SCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://edie-flame.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://i.ibb.co/xX1XDDN/Screenshot-12-12-2024-16588-edie-flame-vercel-app.jpg",
+      video: "",
+    },
+    {
+      title: "DSC Data smart",
+      href: "https://smartdatalogger.ngrok.io/",
+      dates: "Jan 2024 - Juin 2024",
+      active: false,
+      description: "Une description",
+      technologies: ["Nextjs", "Material UI", "React Hook Form", "Redux..."],
+      links: [
+        {
+          type: "Website",
+          href: "https://smartdatalogger.ngrok.io/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video: "https://",
+      video: "",
     },
   ],
   hackathons: [
